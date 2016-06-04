@@ -1,0 +1,36 @@
+h1 {
+  font-family: Monospace;
+}
+hr { width:100%; height:1px; background: black 
+}
+.btns {
+  margin-top: 1px;
+  margin-bottom: 15px;
+  font-family: Monospace;
+  color: black;
+}
+.verticalLine {
+    border-left: thin solid black;
+}
+h2 {
+  font-family: Monospace;
+}
+p {
+  font-family: Monospace;
+  color: black;
+}
+ul{display:table;
+  margin:0 auto;
+  text-align:left;
+  margin-left: 140px;
+  font-size: 175%;
+  font-family: Monospace;
+}
+.greet {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 100px;
+  font-family: Monospace;
+  font-size: 150%;
+}
