@@ -29,13 +29,14 @@ button {
   margin-top: 8px;
   text-align: left;
 }
-a, a:visited {
+p>a, p>a:visited,ul>a,ul>a:visited, li>a,li>a:visited {
   color:black;
 }
-a:hover, a:active{
+p>a:hover,p>a:active,ul>a:hover,ul>a:active,li>a:hover,li>a:active,.col-md-1>a:hover,.col-md-1>a:active{
   text-decoration: none;
   color: gray;
 }
+
 
 #name{
   text-align: center;
@@ -43,7 +44,7 @@ a:hover, a:active{
   color: black;
 }
 
-.btn:hover, .btn:active {
+.btn:hover, .btn:active, .btn:focus {
   background: white;
   color: black;
 }
