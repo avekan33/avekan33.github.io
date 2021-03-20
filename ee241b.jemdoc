@@ -1,8 +1,6 @@
 == EE 241B Spring 2021 Class Project
-~~~
-Averal Kandala and Micah Roschelle \n
-Contact: +averal at eecs dot berkeley dot edu+ and +micah.roschelle at eecs dot berkeley dot edu+
-~~~
+Averal Kandala (averal@eecs) and Micah Roschelle (micah.roschelle@eecs) \n
+
 == Abstract
 Energy- and area-efficient clock generation is essential for data sampling, processing, and wake-up timing in low-power internet-of-things (IoT) applications [1]. Digital frequency-locked loops (DFLLs) provide a convenient avenue for achieving this objective, as they allow for easy implementation of optimized loop calibration algorithms and structures, without analog design concerns such as strict supply voltage requirements, incorporation of large loop filter capacitors, and performance degradation due to issues of device mismatch and PVT variation that exist in advanced technology nodes [2].  \n\n
 
