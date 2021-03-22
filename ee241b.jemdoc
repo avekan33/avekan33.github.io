@@ -2,16 +2,12 @@
 Averal Kandala (averal@eecs) and Micah Roschelle (micah.roschelle@eecs) \n
 
 == Abstract
-Energy- and area-efficient clock generation is essential for data sampling, processing, and wake-up timing in low-power internet-of-things (IoT) applications [1]. Digital frequency-locked loops (DFLLs) provide a convenient avenue for achieving this objective, as they allow for easy implementation of optimized loop calibration algorithms and structures, without analog design concerns such as strict supply voltage requirements, incorporation of large loop filter capacitors, and performance degradation due to issues of device mismatch and PVT variation that exist in advanced technology nodes [2].  \n\n
-
-References \n
-1. D. S. Truesdell, S. Li and B. H. Calhoun, "A 0.5V 560kHz 18.8fJ\/Cycle Ultra-Low Energy Oscillator in 65nm CMOS with 96.1ppm\/°C Stability using a Duty-Cycled Digital Frequency-Locked Loop," /2020 IEEE Symposium on VLSI Circuits/, Honolulu, HI, USA, 2020, pp. 1-2, doi: 10.1109\/VLSICircuits18222.2020.9162832. \n
-2. I. Ali et al., "An Ultra-Low Power, Adaptive All-Digital Frequency-Locked Loop With Gain Estimation and Constant Current DCO," in /IEEE Access/, vol. 8, pp. 97215-97230, 2020, doi: 10.1109\/ACCESS.2020.2995853. \n
+Phase-locked loops (PLLs) are traditionally mixed-signal circuits that perform critical operational functions in SoCs, such as clock generation and frequency synthesis. However, as such systems migrate to more deeply scaled process technologies which are unfriendly towards analog/mixed-signal design, designers have turned to all-digital designs for their stability over PVT variations, compatibility with automated digital design flows, portability between technologies, and dynamic programmability. All-digital phase-locked loops (ADPLLs) consist of a digital phase detector, digital loop filter (DLF), and digitally controlled oscillator (DCO). This work will compare and contrast various state-of-the-art designs for each of these functional blocks and determine an optimal topology for integration with an automated digital design flow in a nm-scale technology. A plan will then be laid out to evaluate a number of described topologies in the ASAP7 7 nm predictive PDK through a series of ADPLL schematic testbenches assessing lock range, DCO linearity, jitter, and power.
 
 == Project Proposal
 [proposal.pdf Digital Frequency-locked Loop Design Strategies in the ASAP7 Open PDK (PDF)]
 == Midterm Report
-(in progress)
+[midterm.pdf Analysis and Design of All-digital Phase-locked Loops for SoC Integration in Deeply Scaled Technologies]
 == Final Report
 (in progress)
 == Final Presentation
